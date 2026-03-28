@@ -1,0 +1,46 @@
+# 🔌 Circuit Connections
+
+## 🧠 Arduino Uno Connections
+
+### 📡 Ultrasonic Sensor (HC-SR04)
+
+* VCC → 5V
+* GND → GND
+* TRIG → Digital Pin 9
+* ECHO → Digital Pin 10
+
+---
+
+### 🔄 Servo Motor (SG90)
+
+* VCC (Red) → 5V
+* GND (Brown/Black) → GND
+* Signal (Orange/Yellow) → Digital Pin 11
+
+---
+
+## ⚠️ Important Notes
+
+* Ensure common ground between all components
+* Do not power servo from external source unless needed
+* Keep connections tight to avoid signal noise
+* Use breadboard for stable connections
+
+---
+
+## 🔋 Power Supply
+
+* Arduino powered via USB (5V)
+* All components draw power from Arduino
+
+---
+
+## 📌 Pin Summary
+
+| Component    | Pin Connection |
+| ------------ | -------------- |
+| HC-SR04 TRIG | D9             |
+| HC-SR04 ECHO | D10            |
+| Servo Signal | D11            |
+| VCC          | 5V             |
+| GND          | GND            |
